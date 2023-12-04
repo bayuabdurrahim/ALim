@@ -28,14 +28,17 @@ import Header from "./component/Header";
 import { Navbar } from "./component/NavBar";
 import {LulusUjian} from "./component/LulusUjian";
 import {RenderingList} from "./component/renderinglist"
+import StateName from "./component/StateName"
 
 export default function MyApp(){
   return(
     <div>
-      {/* <Header />
-      <Navbar /> */}
-      {/* <LulusUjian /> */}
+      <Header />
+      <Navbar /> 
+      <LulusUjian />
       <RenderingList/>
+      <StateName/>
+
       
     </div>
   )
