@@ -25,19 +25,19 @@ import './App.css';
 // export default App;
 
 import Header from "./component/Header";
-import { Navbar } from "./component/NavBar";
-import {LulusUjian} from "./component/LulusUjian";
-import {RenderingList} from "./component/renderinglist"
-import StateName from "./component/StateName"
+import { Navbar } from "./component/Navbar";
+// import {LulusUjian} from "./component/LulusUjian";
+// import {RenderingList} from "./component/renderinglist"
+// import StateName from "./component/StateName"
 
 export default function MyApp(){
   return(
     <div>
       <Header />
       <Navbar /> 
-      <LulusUjian />
-      <RenderingList/>
-      <StateName/>
+      {/* <LulusUjian />
+      <RenderingList/> */}
+      {/* <StateName/> */}
 
       
     </div>
